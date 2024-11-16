@@ -7,11 +7,11 @@ sns.set(style='dark')
 
 
 # load cleaned dataframe
-#cleaned1_df = pd.read_csv('../group1.csv', delimiter = ',')
-cleaned2_df = pd.read_csv('../group2.csv', delimiter = ',')
-cleaned3_df = pd.read_csv('../group3.csv', delimiter = ',')
-order_df_copy = pd.read_csv("../group4.csv", delimiter=",")
-groupedonetimedata = pd.read_csv('../groupedonetimedata.csv', delimiter=',')
+#cleaned1_df = pd.read_csv('dashboard/group1.csv', delimiter = ',')
+cleaned2_df = pd.read_csv('dashboard/group2.csv', delimiter = ',')
+cleaned3_df = pd.read_csv('dashboard/group3.csv', delimiter = ',')
+order_df_copy = pd.read_csv('dashboard/group4.csv', delimiter=",")
+groupedonetimedata = pd.read_csv('dashboard/groupedonetimedata.csv', delimiter=',')
 
 
 st.header('Sales Performance Dashboard')
